@@ -1,0 +1,44 @@
+# ===== Data files (large, don't belong in git) =====
+*.csv
+*.zip
+*.tsv
+*.parquet
+*.json
+data/
+datasets/
+Train.csv
+Valid.csv
+Test.csv
+TrainAndValid.csv
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# ===== Conda / virtual environments =====
+.conda/
+.venv/
+venv/
+env/
+
+# ===== Trained models (often large binary files) =====
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
